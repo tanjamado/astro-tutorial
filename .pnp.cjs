@@ -11,7 +11,7 @@ const RAW_RUNTIME_STATE =
   ],\
   "dependencyTreeRoots": [\
     {\
-      "name": "agreeable-azimuth",\
+      "name": "astro-tutorial",\
       "reference": "workspace:."\
     }\
   ],\
@@ -19,7 +19,7 @@ const RAW_RUNTIME_STATE =
   "ignorePatternData": "(^(?:\\\\.yarn\\\\/sdks(?:\\\\/(?!\\\\.{1,2}(?:\\\\/|$))(?:(?:(?!(?:^|\\\\/)\\\\.{1,2}(?:\\\\/|$)).)*?)|$))$)",\
   "pnpZipBackend": "libzip",\
   "fallbackExclusionList": [\
-    ["agreeable-azimuth", ["workspace:."]]\
+    ["astro-tutorial", ["workspace:."]]\
   ],\
   "fallbackPool": [\
   ],\
@@ -28,8 +28,8 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["agreeable-azimuth", "workspace:."],\
-          ["astro", "npm:6.0.5"]\
+          ["astro", "npm:6.0.5"],\
+          ["astro-tutorial", "workspace:."]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -1162,16 +1162,6 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
-    ["agreeable-azimuth", [\
-      ["workspace:.", {\
-        "packageLocation": "./",\
-        "packageDependencies": [\
-          ["agreeable-azimuth", "workspace:."],\
-          ["astro", "npm:6.0.5"]\
-        ],\
-        "linkType": "SOFT"\
-      }]\
-    ]],\
     ["anymatch", [\
       ["npm:3.1.3", {\
         "packageLocation": "../../../C:/Users/allam/AppData/Local/Yarn/Berry/cache/anymatch-npm-3.1.3-bc81d103b1-10c0.zip/node_modules/anymatch/",\
@@ -1273,6 +1263,16 @@ const RAW_RUNTIME_STATE =
           ["zod", "npm:4.3.6"]\
         ],\
         "linkType": "HARD"\
+      }]\
+    ]],\
+    ["astro-tutorial", [\
+      ["workspace:.", {\
+        "packageLocation": "./",\
+        "packageDependencies": [\
+          ["astro", "npm:6.0.5"],\
+          ["astro-tutorial", "workspace:."]\
+        ],\
+        "linkType": "SOFT"\
       }]\
     ]],\
     ["axobject-query", [\

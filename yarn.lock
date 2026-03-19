@@ -964,14 +964,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"agreeable-azimuth@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "agreeable-azimuth@workspace:."
-  dependencies:
-    astro: "npm:^6.0.5"
-  languageName: unknown
-  linkType: soft
-
 "anymatch@npm:^3.1.3":
   version: 3.1.3
   resolution: "anymatch@npm:3.1.3"
@@ -1002,6 +994,14 @@ __metadata:
   checksum: 10c0/756c08334f95e290f03ab2141b034514af1311ef7b62f15b0f5ea6f8f3033ee9cc6a8f1c3e9ff4803d4d723cf992aa61460acf5fce884936972db966b1da287d
   languageName: node
   linkType: hard
+
+"astro-tutorial@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "astro-tutorial@workspace:."
+  dependencies:
+    astro: "npm:^6.0.5"
+  languageName: unknown
+  linkType: soft
 
 "astro@npm:^6.0.5":
   version: 6.0.5
